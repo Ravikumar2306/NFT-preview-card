@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: 400px;
+    height: auto;
+    border: none;
+    background-color: hsl(216, 50%, 16%);
+    color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.card-image .ethereum-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-image {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.card-image .blue-bg{
+    display: none;
+}
+
+.card-image .eye-icon {
+    display: none;
+}
+
+.card-image .focus-bg {
+    display: block;
+    position: absolute;
+    top: 0;
+    background-color: hsl(178, 100%, 50%);
+    padding: 175px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.card-image .focus-eye {
+    display: block;
+    position: absolute;
+    top: 43%;
+    right: 43%;
+}
+
+article a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+article a:focus {
+  color: hsl(178, 100%, 50%);
+}
+
+article p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    margin-top: 20px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.details .value {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+}
+
+.value-img {
+    margin-right: 10px;
+}
+
+.details .days {
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+}
+
+.clock-icon {
+    margin-right: 5px;
+}
+
+footer figure {
+    display: flex;
+    align-items: center;
+}
+
+figure img {
+    max-width: 35px;
+    border: 1px #fff solid;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+figcaption span {
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+figcaption a {
+  text-decoration: none;
+  color: #fff;
+}
+
+figcaption a:focus {
+  color: hsl(178, 100%, 50%);
+}
+
+hr {
+    border-color: hsl(215, 51%, 70%);
+    opacity: 0.2;
+    margin: 0 0 20px 0;
+}
