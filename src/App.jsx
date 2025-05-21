@@ -9,9 +9,9 @@ function App() {
    <main>
       <div className="card">
         <div className="card-image">
-          <img onClick={()=> setFocus(true)} className="ethereum-img" src="/images/image-equilibrium.jpg" alt="" />
+          <img onClick={()=> setFocus(true)} className="ethereum-img" src="/NFT-preview-card/images/image-equilibrium.jpg" alt="" />
           <div className={focus? "focus-bg" : "blue-bg"}></div>
-          <img className={focus? "focus-eye" : "eye-icon"} src="/images/icon-view.svg" alt="" />
+          <img className={focus? "focus-eye" : "eye-icon"} src="/NFT-preview-card/images/icon-view.svg" alt="" />
         </div>
 
         <article>
@@ -21,11 +21,11 @@ function App() {
 
         <div className="details">
           <p className="value">
-            <img className="value-img" src="/images/icon-ethereum.svg" alt="" />
+            <img className="value-img" src="/NFT-preview-card/images/icon-ethereum.svg" alt="" />
             0.041 ETH
           </p>
           <p className="days">
-            <img className="clock-icon" src="/images/icon-clock.svg" alt="" />
+            <img className="clock-icon" src="/NFT-preview-card/images/icon-clock.svg" alt="" />
             3 days left
           </p>
         </div>
